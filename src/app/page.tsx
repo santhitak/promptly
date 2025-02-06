@@ -4,7 +4,7 @@ import React from "react";
 import {journalPrompt} from "@/app/source/journalPrompt";
 
 export default function Home() {
-    const [currentPrompt, setCurrentPrompt] = React.useState<JournalPromptType>()
+    const [currentPrompt, setCurrentPrompt] = React.useState<PromptType>()
 
     function getPrompt() {
         const randomPromptId = Math.floor(journalPrompt.length * Math.random())
