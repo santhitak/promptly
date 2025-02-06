@@ -182,19 +182,25 @@ export default function Home() {
 
     return (
         <div
-            className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-            <main className="flex flex-col gap row-start-2 items-center sm:items-start">
-                <div className="flex flex-col gap-10">
-                    <p className="text-xl font-bold">
-                        Promptly | Prompt of the day
+            className="flex items-center justify-items-center h-full w-full gap-16">
+            <main
+                className="flex justify-center items-center lg:grid lg:grid-cols-3 lg:grid-rows-3 lg:row-start-2 w-screen h-full">
+                <div
+                    className="col-start-2 col-span-1 row-start-2 row-span-1 w-full h-3/6 md:h-96 gap-10 flex flex-col
+                    justify-between">
+                    <p className="text-3xl font-bold text-red-600">
+                        Prompt of the day
                     </p>
-                    <p>
-                        {currentPrompt?.prompt}
-                    </p>
+                    <div
+                        className="w-full h-full bg-white rounded-2xl overflow-auto shadow-lg p-8 lg:p-14 flex justify-center items-center">
+                        <p className="text-center font-medium text-xl">
+                            {currentPrompt?.prompt ?? "Hit the button for new prompt"}
+                        </p>
+                    </div>
                     <button
                         onClick={getPrompt}
-                        className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                        Generate new prompt
+                        className="w-full bg-transparent bg-white hover:bg-red-600 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-600 hover:border-transparent rounded transition-all ease-in">
+                        <p className="font-medium">Generate new prompt</p>
                     </button>
                 </div>
             </main>
