@@ -233,5 +233,205 @@ export const journalPrompt: PromptType[] = [
     {
         "id": 59,
         "prompt": "Write about an experience that taught you a valuable lesson about forgiveness or acceptance."
+    },
+    {
+        "id": 60,
+        "prompt": "What does success mean to me, and how has my definition of success evolved over time?"
+    },
+    {
+        "id": 61,
+        "prompt": "What is a fear I've overcome, and how did I do it?"
+    },
+    {
+        "id": 62,
+        "prompt": "If I could master any skill instantly, what would it be and why?"
+    },
+    {
+        "id": 63,
+        "prompt": "Write about a time when I felt truly proud of myself. What happened?"
+    },
+    {
+        "id": 64,
+        "prompt": "What is one thing I can do today to show kindness to someone else?"
+    },
+    {
+        "id": 65,
+        "prompt": "What is a memory I cherish deeply, and why is it so special?"
+    },
+    {
+        "id": 66,
+        "prompt": "If I could relive any day of my life, which day would I choose and why?"
+    },
+    {
+        "id": 67,
+        "prompt": "What is one thing I want to accomplish this week?"
+    },
+    {
+        "id": 68,
+        "prompt": "What motivates me to keep going during tough times?"
+    },
+    {
+        "id": 69,
+        "prompt": "What is one piece of advice I would give to my younger self?"
+    },
+    {
+        "id": 70,
+        "prompt": "What is something I’ve always wanted to learn, and what’s stopping me from starting now?"
+    },
+    {
+        "id": 71,
+        "prompt": "How do I express gratitude in my daily life?"
+    },
+    {
+        "id": 72,
+        "prompt": "If I could describe my life in five words, what would they be and why?"
+    },
+    {
+        "id": 73,
+        "prompt": "Write a letter to someone who has inspired me in life."
+    },
+    {
+        "id": 74,
+        "prompt": "What is the best compliment I've ever received?"
+    },
+    {
+        "id": 75,
+        "prompt": "What is one challenge I faced recently, and how did I handle it?"
+    },
+    {
+        "id": 76,
+        "prompt": "If I had an unlimited budget, what would I do first?"
+    },
+    {
+        "id": 77,
+        "prompt": "What does self-care mean to me, and how can I practice it more consistently?"
+    },
+    {
+        "id": 78,
+        "prompt": "What is one place I’ve always wanted to visit, and why?"
+    },
+    {
+        "id": 79,
+        "prompt": "What is a dream I’ve had since childhood that I still want to pursue?"
+    },
+    {
+        "id": 80,
+        "prompt": "If I could spend a day with any historical figure, who would it be and why?"
+    },
+    {
+        "id": 81,
+        "prompt": "What is one lesson I’ve learned the hard way?"
+    },
+    {
+        "id": 82,
+        "prompt": "Write about a moment when I felt completely at peace."
+    },
+    {
+        "id": 83,
+        "prompt": "What is one thing that always brings me comfort?"
+    },
+    {
+        "id": 84,
+        "prompt": "If I could write a book, what would it be about?"
+    },
+    {
+        "id": 85,
+        "prompt": "What is one thing I’m really good at, and how did I get good at it?"
+    },
+    {
+        "id": 86,
+        "prompt": "Write about a time when I made someone else's day better."
+    },
+    {
+        "id": 87,
+        "prompt": "What is one way I can make my future self proud?"
+    },
+    {
+        "id": 88,
+        "prompt": "What is something new I tried recently, and what did I learn from it?"
+    },
+    {
+        "id": 89,
+        "prompt": "Write about a hobby or activity that brings me joy."
+    },
+    {
+        "id": 90,
+        "prompt": "What is my favorite way to spend a relaxing day?"
+    },
+    {
+        "id": 91,
+        "prompt": "If I could create my dream home, what would it look like?"
+    },
+    {
+        "id": 92,
+        "prompt": "What is one habit I’m proud of developing?"
+    },
+    {
+        "id": 93,
+        "prompt": "What is a piece of advice that has stayed with me over the years?"
+    },
+    {
+        "id": 94,
+        "prompt": "If I could live anywhere in the world, where would it be and why?"
+    },
+    {
+        "id": 95,
+        "prompt": "What is my favorite way to celebrate an accomplishment?"
+    },
+    {
+        "id": 96,
+        "prompt": "What is one act of kindness someone has shown me that I will never forget?"
+    },
+    {
+        "id": 97,
+        "prompt": "What is a song or piece of music that always lifts my spirits?"
+    },
+    {
+        "id": 98,
+        "prompt": "If I could design the perfect day, what would it include?"
+    },
+    {
+        "id": 99,
+        "prompt": "What is one small win I’ve had recently?"
+    },
+    {
+        "id": 100,
+        "prompt": "What is one thing I love about myself and why?"
+    },
+    {
+        "id": 101,
+        "prompt": "What is one thing I want to let go of, and why?"
+    },
+    {
+        "id": 102,
+        "prompt": "What is one area of my life where I’d like to grow?"
+    },
+    {
+        "id": 103,
+        "prompt": "What is one thing that makes me feel connected to others?"
+    },
+    {
+        "id": 104,
+        "prompt": "What is something I’ve done recently that I’m proud of?"
+    },
+    {
+        "id": 105,
+        "prompt": "Write about a time when I overcame self-doubt."
+    },
+    {
+        "id": 106,
+        "prompt": "If I could change one thing about the world, what would it be?"
+    },
+    {
+        "id": 107,
+        "prompt": "What is one way I can give back to my community?"
+    },
+    {
+        "id": 108,
+        "prompt": "What is one thing that always brings a smile to my face?"
+    },
+    {
+        "id": 109,
+        "prompt": "What is one memory that reminds me of the importance of gratitude?"
     }
 ]
