@@ -21,8 +21,10 @@ export default function RootLayout({
     }, []);
 
     return (
-        <div className="h-screen mx-4 p-8 font-[family-name:var(--font-geist-sans)]">
-            {children}
+        <div className="bg-zinc-50">
+            <div className="h-screen mx-4 p-8 font-[family-name:var(--font-geist-sans)]">
+                {children}
+            </div>
         </div>
     );
 }
