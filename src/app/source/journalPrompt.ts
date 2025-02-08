@@ -25,7 +25,7 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 6,
-        "prompt": "If I could have any superpower, what would it be and why?"
+        "prompt": "What would teenage you think about yourself today?"
     },
     {
         "id": 7,
@@ -41,11 +41,11 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 10,
-        "prompt": "What is one funny story about my life that I don't mind sharing with other people?"
+        "prompt": "What are you most proud of?"
     },
     {
         "id": 11,
-        "prompt": "What is something about myself that I know is quirky?"
+        "prompt": "What is your biggest struggle in loving yourself?"
     },
     {
         "id": 12,
@@ -57,7 +57,7 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 14,
-        "prompt": "What is my favorite silly joke or pun, and why does it make me laugh?"
+        "prompt": "How do you feel about asking for help?"
     },
     {
         "id": 15,
@@ -65,11 +65,11 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 16,
-        "prompt": "If I were a superhero, what would be my name, powers, and costume?"
+        "prompt": "How do the opinions of others affect you?"
     },
     {
         "id": 17,
-        "prompt": "What is the funniest prank I have ever played on someone, or that someone has played on me?"
+        "prompt": "What do you need to give yourself more credit for?"
     },
     {
         "id": 18,
@@ -77,15 +77,15 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 19,
-        "prompt": "What is my favorite childhood toy or game, and why did I love it so much?"
+        "prompt": "What is a view about the world that has changed for you as you’ve gotten older?"
     },
     {
         "id": 20,
-        "prompt": "What is my favorite dance move, and can I teach it to someone else (or describe it in words)?"
+        "prompt": "What happens when you are angry?"
     },
     {
         "id": 21,
-        "prompt": "Write a poem about a childhood memory that has stayed with you."
+        "prompt": "Write a love letter to your body"
     },
     {
         "id": 22,
@@ -113,47 +113,47 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 28,
-        "prompt": "What are three things that are holding me back from achieving my goals?"
+        "prompt": "Which emotions in others do you have a difficult time being around? Why?"
     },
     {
         "id": 29,
-        "prompt": "How can I work to overcome these obstacles?"
+        "prompt": "Who has been your greatest teacher?"
     },
     {
         "id": 30,
-        "prompt": "What are three small, measurable goals I can set for myself this week?"
+        "prompt": "Write a complete story with just six words. For example: Turns out the pain was temporary."
     },
     {
         "id": 31,
-        "prompt": "How will I hold myself accountable for following through on my goals?"
+        "prompt": "Write about a mistake that taught you something about yourself."
     },
     {
         "id": 32,
-        "prompt": "What are my long-term career goals? What are some concrete steps I can take to move closer to achieving them?"
+        "prompt": "What made you feel most alive when you were young?"
     },
     {
         "id": 33,
-        "prompt": "What are my personal values and how do they relate to my goals?"
+        "prompt": "Which songs have vivid memories for you?"
     },
     {
         "id": 34,
-        "prompt": "How can I ensure that my goals are aligned with my values?"
+        "prompt": "Who is the most difficult person in your life and why?"
     },
     {
         "id": 35,
-        "prompt": "What are some potential roadblocks or challenges that I may encounter as I work towards my goals?"
+        "prompt": "Write about something (or someone) that is currently tempting you."
     },
     {
         "id": 36,
-        "prompt": "How can I develop a plan to overcome roadblocks or challenges to my goals?"
+        "prompt": "Describe how communication has changed in the last twenty years."
     },
     {
         "id": 37,
-        "prompt": "How can I track my progress towards my goals?"
+        "prompt": "Sometimes lies can have serious consequences. Describe a time when a lie had major consequences for you."
     },
     {
         "id": 38,
-        "prompt": "What tools or systems can I use to stay motivated and on track?"
+        "prompt": "People often say, “What you don’t know won’t hurt you,” but the opposite often turns out to be true. Tell about a time when you were hurt by something you didn’t know."
     },
     {
         "id": 39,
@@ -165,18 +165,18 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 41,
-        "prompt": "What habits do I need in order to achieve my goals?"
+        "prompt": "Sometimes we take nature for granted. Describe an experience that made you appreciate the natural world."
     }, {
         "id": 43,
-        "prompt": "Write a poem about a childhood memory that has stayed with you."
+        "prompt": "Animals can sometimes seem remarkably human. Describe an experience with an animal that acted in a very human way."
     },
     {
         "id": 44,
-        "prompt": "Write about a character who wakes up one day with a superpower."
+        "prompt": "It has been said that the truth is often stranger than fiction. Describe an experience you had that was so strange others might think you made it up."
     },
     {
         "id": 45,
-        "prompt": "Write a poem about the changing of the seasons and the beauty of nature."
+        "prompt": "Sometimes we surprise ourselves with what we are able to do. Describe a time when you accomplished something you didn’t think you could do."
     },
     {
         "id": 46,
@@ -188,7 +188,7 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 48,
-        "prompt": "Write a poem that explores the concept of time and how it shapes our lives."
+        "prompt": "Moving can be a very exciting but also difficult time in one’s life. Tell about a time you moved and how it affected you."
     },
     {
         "id": 49,
@@ -196,23 +196,23 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 50,
-        "prompt": "Write a poem that reflects on the beauty of everyday moments."
+        "prompt": "As the saying goes, “If at first you don’t succeed, try, try again. Describe a time when you persisted until you achieved your goal."
     },
     {
         "id": 51,
-        "prompt": "Write a story about a time traveler who accidentally gets stuck in the wrong time period."
+        "prompt": "People often say, “It’s better to be safe than sorry.” Tell about an experience that proves this saying to be true."
     },
     {
         "id": 52,
-        "prompt": "Write about a relationship that taught you an important lesson about yourself or the world around you."
+        "prompt": "Write about a relationship that taught you an important lesson about yourself."
     },
     {
         "id": 53,
-        "prompt": "Write a story about a character who discovers a mysterious book with a hidden message."
+        "prompt": "Have you ever forgotten something very important?"
     },
     {
         "id": 54,
-        "prompt": "Write a poem that uses the theme of water to convey a deeper meaning or emotion."
+        "prompt": "When we meet someone we haven’t seen in a long time, we are often surprised by how much they have changed. Describe a time when this happened to you."
     },
     {
         "id": 55,
@@ -220,27 +220,27 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 56,
-        "prompt": "Write a story about a character who is forced to confront their deepest fear."
+        "prompt": "It is often said that 'The greatest risk is not taking one.' Tell about a time when you took a chance."
     },
     {
         "id": 57,
-        "prompt": "Write a poem that explores the idea of home and what it means to you."
+        "prompt": "Sometimes a simple misunderstanding can lead to a major conflict. Describe a time when this happened to you."
     },
     {
         "id": 58,
-        "prompt": "Write a story from the perspective of an animal who is trying to survive in the wilderness."
+        "prompt": "Many people believe that hatred is our most destructive emotion. Describe an experience that proves this statement to be true."
     },
     {
         "id": 59,
-        "prompt": "Write about an experience that taught you a valuable lesson about forgiveness or acceptance."
+        "prompt": "Most of us have done things we didn’t want to do because of pressure from our peers. Tell about a time that you gave in to peer pressure."
     },
     {
         "id": 60,
-        "prompt": "What does success mean to me, and how has my definition of success evolved over time?"
+        "prompt": "Tell about a time when you left the safety of a place or situation to explore or try something new."
     },
     {
         "id": 61,
-        "prompt": "What is a fear I've overcome, and how did I do it?"
+        "prompt": "Describe a time when you performed or witnessed a random act of kindness."
     },
     {
         "id": 62,
@@ -272,15 +272,15 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 69,
-        "prompt": "What is one piece of advice I would give to my younger self?"
+        "prompt": "Describe a time when you enjoyed something you thought you would not like."
     },
     {
         "id": 70,
-        "prompt": "What is something I’ve always wanted to learn, and what’s stopping me from starting now?"
+        "prompt": "Describe a time when you had a conflict with a family member."
     },
     {
         "id": 71,
-        "prompt": "How do I express gratitude in my daily life?"
+        "prompt": "Describe a time when you witnessed something unbelievable."
     },
     {
         "id": 72,
@@ -332,7 +332,7 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 84,
-        "prompt": "If I could write a book, what would it be about?"
+        "prompt": "Describe an experience that shows the accuracy of the following quotation: 'Your luck is how you treat people.'"
     },
     {
         "id": 85,
@@ -340,7 +340,7 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 86,
-        "prompt": "Write about a time when I made someone else's day better."
+        "prompt": "Describe a time when you misjudged someone based on his or her appearance or when someone misjudged you."
     },
     {
         "id": 87,
@@ -360,7 +360,7 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 91,
-        "prompt": "If I could create my dream home, what would it look like?"
+        "prompt": "Personification is the technique wherein a non-human character is given human thoughts, feelings, and dialogue. Illustrate how this technique is used in your favorite novel or short story."
     },
     {
         "id": 92,
@@ -372,11 +372,11 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 94,
-        "prompt": "If I could live anywhere in the world, where would it be and why?"
+        "prompt": "Discuss a character in literature that you loathed. Explain the techniques the author used that caused you to feel this way."
     },
     {
         "id": 95,
-        "prompt": "What is my favorite way to celebrate an accomplishment?"
+        "prompt": "Explain the items you would want to place in a time capsule."
     },
     {
         "id": 96,
@@ -396,15 +396,15 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 100,
-        "prompt": "What is one thing I love about myself and why?"
+        "prompt": "Explain how not getting enough sleep affects your day."
     },
     {
         "id": 101,
-        "prompt": "What is one thing I want to let go of, and why?"
+        "prompt": "Describe a favorite music video to a friend who has not had a chance to see or hear it."
     },
     {
         "id": 102,
-        "prompt": "What is one area of my life where I’d like to grow?"
+        "prompt": "Describe how weather affects your mood."
     },
     {
         "id": 103,
@@ -432,6 +432,34 @@ export const journalPrompt: PromptType[] = [
     },
     {
         "id": 109,
-        "prompt": "What is one memory that reminds me of the importance of gratitude?"
+        "prompt": "We often put people we admire so high on a pedestal that we forget they’re human. Describe a time when you realized that someone you admired was imperfect."
+    },
+    {
+        "id": 110,
+        "prompt": "What is one thing I love about the world?"
+    },
+    {
+        "id": 111,
+        "prompt": "Reflect on the quiet struggles that no one else sees."
+    },
+    {
+        "id": 112,
+        "prompt": "Describe a moment when you truly saw yourself unapologetically"
+    },
+    {
+        "id": 113,
+        "prompt": "Write a letter to the person you are struggling to forgive"
+    },
+    {
+        "id": 114,
+        "prompt": "Describe “you” when you’re alone versus 'you' when you’re with others. What are the differences and why do you think they’re there?"
+    },
+    {
+        "id": 115,
+        "prompt": "What would you do if you suddenly had all the confidence in the world? How would you present yourself, and what opportunities would you take advantage of?"
+    },
+    {
+        "id": 116,
+        "prompt": "If you had two other lives to live, what would you do with them?"
     }
 ]

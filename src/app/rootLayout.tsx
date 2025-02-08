@@ -2,11 +2,12 @@
 
 import React from "react";
 
-export default function RootLayout({
-                                       children,
-                                   }: Readonly<{
-    children: React.ReactNode;
-}>) {
+export default function RootLayout(
+    {
+        children,
+    }: Readonly<{
+        children: React.ReactNode;
+    }>) {
     React.useEffect(() => {
         if ("serviceWorker" in navigator) {
             navigator.serviceWorker

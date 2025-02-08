@@ -21,16 +21,15 @@ export const metadata: Metadata = {
     manifest: "./manifest.json",
 };
 
-export default function Layout({
-                                   children,
-                               }: Readonly<{
-    children: React.ReactNode;
-}>) {
+export default function Layout(
+    {
+        children,
+    }: Readonly<{
+        children: React.ReactNode;
+    }>) {
     return (
         <html lang="en">
-        <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiasing`}
-        >
+        <body className={`${geistSans.variable} ${geistMono.variable} antialiasing`}>
         <RootLayout>{children}</RootLayout>
         </body>
         </html>
