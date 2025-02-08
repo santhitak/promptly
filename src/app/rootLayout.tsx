@@ -1,12 +1,15 @@
 "use client";
 
 import React from "react";
+import {ThemeProvider} from "@material-tailwind/react";
 
-export default function RootLayout({
-                                       children,
-                                   }: Readonly<{
-    children: React.ReactNode;
-}>) {
+
+export default function RootLayout(
+    {
+        children,
+    }: Readonly<{
+        children: React.ReactNode;
+    }>) {
     React.useEffect(() => {
         if ("serviceWorker" in navigator) {
             navigator.serviceWorker
@@ -21,10 +24,12 @@ export default function RootLayout({
     }, []);
 
     return (
-        <div className="bg-zinc-50">
-            <div className="h-screen mx-4 p-8 font-[family-name:var(--font-geist-sans)]">
-                {children}
+        <ThemeProvider>
+            <div className="bg-zinc-50">
+                <div className="h-screen mx-4 p-8 font-[family-name:var(--font-geist-sans)]">
+                    {children}
+                </div>
             </div>
-        </div>
+        </ThemeProvider>
     );
 }
